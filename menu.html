@@ -1,0 +1,281 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Menu</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/menu.css" />
+
+
+</head>
+
+<body>
+    <div id="main">
+        <header>
+            <div id="logo">
+                <div id="logo_text">
+                    <h1><a href="index.html">2RV Restaurant</a></h1>
+                </div>
+            </div>
+            <nav>
+                <ul class="sf-menu" id="nav">
+                    <li class="selected"><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="offers.html">Offers</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="site_content">
+            <ul id="images">
+                <li><img src="images/1.jpg" width="600" height="300" /></li>
+                <li><img src="images/2.jpg" width="600" height="300" /></li>
+                <li><img src="images/3.jpg" width="600" height="300" /></li>
+                <li><img src="images/4.jpg" width="600" height="300" /></li>
+                <li><img src="images/5.jpg" width="600" height="300" /></li>
+                <li><img src="images/6.jpg" width="600" height="300" /></li>
+            </ul>
+            <div id="sidebar_container">
+                <div class="sidebar">
+                    <h3>Latest !!!!</h3>
+                    <h2><a href="menu2.html">Book your Table Now</a></h2>
+
+                </div>
+            </div>
+            <div class="content2">
+                <h2 class="maincontent">Your favourite Dishes</h2>
+
+                <main id="menu">
+
+                    <h2 class="accordion">Main Course</h2>
+                    <div class="panel">
+
+                        <table id="td1">
+                            <tr>
+                                <th>Item</th>
+                                <th>Description</th>
+                                <th>price</th>
+                                <th>Buy </th>
+
+
+                            </tr>
+                            <tr>
+                                <td id="item">Allu Paratha&nbsp;</td>
+                                <td>Whole Wheat Bread Stuffed with Potatoes.</td>
+                                <td id="item">$2.99&nbsp;</td>
+                                <td><input type="checkbox" name="food" id="ap" value="Allu Paratha" onClick="checkbox();" />&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td id="item">Pashwori Naan&nbsp;</td>
+                                <td>Lightly Spiced Warm Lentil Soup</td>
+                                <td id="item">$3.99&nbsp;</td>
+                                <td><input type="checkbox" id="pn" name="food" value="Pashwori Naan" onClick="checkbox();" />&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td id="item">Chicken Tandoori&nbsp;</td>
+                                <td>Chicken Marinated in Yogurt and Freshly Ground Herbs and Spices Baked in Tandoor</td>
+                                <td id="item">$10.00&nbsp;</td>
+                                <td><input type="checkbox" name="food" value="Chicken Tandoori" onClick="checkbox();" />&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td id="item">Boti Kabab&nbsp;</td>
+                                <td>Tender Cubes of Lamb Marinated in Tandoor Sauce and Baked in Tandoor Served with Matar Panner or Dal</td>
+                                <td id="item">$16.99&nbsp;</td>
+                                <td><input type="checkbox" name="food" value="Boti Kabab" onClick="checkbox();" />&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td id="item">Chicken with coconut Sauce&nbsp;</td>
+                                <td>Chicken with Coconut Sauce</td>
+                                <td id="item">$11.99&nbsp;</td>
+                                <td><input type="checkbox" name="food" value="Chicken with coconut Sauce" onClick="checkbox();" />&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td id="item">Beef Madrasi&nbsp;</td>
+                                <td>Lean Beef Prepared with Fresh Tomatoes, Onions and Ginger in Hot Sauce.</td>
+                                <td id="item">$12.00&nbsp;</td>
+                                <td><input type="checkbox" name="food" value="Beef Madrasi" onClick="checkbox();" />&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td id="item">Lamb Vindaloo&nbsp;</td>
+                                <td>Lamb Prepared in Slightly Sour Vindaloo Sauce.</td>
+                                <td id="item">$12.99&nbsp;</td>
+                                <td><input type="checkbox" name="food" value="Lamb Vindaloo" onClick="checkbox();" />&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td id="item">Scalopp Makhani&nbsp;</td>
+                                <td>Fresh Scallop Prepared in Butter and Cream and Garnished with Cashews and Raisins.</td>
+                                <td id="item">$13.99&nbsp;</td>
+                                <td><input type="checkbox" name="food" value="Scalopp Makhani" onClick="checkbox();" />&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td id="item">Palak Paneer&nbsp;</td>
+                                <td>Spinach and Homemade Cheese in a Flavorful Curry Sauce.</td>
+                                <td id="item">$10.99&nbsp;</td>
+                                <td><input type="checkbox" name="food" value="Palak Paneer" onClick="checkbox();" />&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td id="item">Nav Ratton Korma&nbsp;</td>
+                                <td>Garden Fresh Vegetable Prepared in Mild Curry Sauce, Garnished with Cashews and Raisins</td>
+                                <td id="item">$10.99&nbsp;</td>
+                                <td><input type="checkbox" name="food" value="Nav Ratton Korma" onClick="checkbox();" />&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td id="item">Mughlai Biryani(Lamb)&nbsp;</td>
+                                <td>A Classic Aromatic Mughlai Dish Flavored with Cubes of Tender Lamb and Fragrant with Saffron and Garnished with Cashews and Raisins</td>
+                                <td id="item">$10.99&nbsp;</td>
+                                <td><input type="checkbox" name="food" value="Mughlai Biryani(Lamb)" onClick="checkbox();" />&nbsp;</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <h2 class="accordion">Dessert</h2>
+                    <div class="panel">
+                        <table id="td1">
+                            <tr>
+                                <th>Item</th>
+                                <th>Description</th>
+                                <th>price</th>
+                                <th>Buy </th>
+
+
+                            </tr>
+                            <tr>
+                                <td id="item">Kheer&nbsp;</td>
+                                <td>Creamy Rice Pudding with Pistachio</td>
+                                <td id="item">$3.99&nbsp;</td>
+                                <td><input type="checkbox" name="food" value="Kheer" onClick="checkbox();" />&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td id="item">Gulaab Jamun&nbsp;</td>
+                                <td>Deep Fried Milk Balls in Sweet Syrup</td>
+                                <td id="item">$3.99&nbsp;</td>
+                                <td><input type="checkbox" name="food" value="Gulaab Jamun" onClick="checkbox();" />&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td id="item">Rasmalayi&nbsp;</td>
+                                <td>Homemade Cheese in Sweetened Milk.</td>
+                                <td id="item">$2.00&nbsp;</td>
+                                <td><input type="checkbox" name="food" value="Rasmalayi" onClick="checkbox();" />&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td id="item">Kulfi&nbsp;</td>
+                                <td>Homemade Milk Ice Cream with Pistachio</td>
+                                <td id="item">$2.99&nbsp;</td>
+                                <td><input type="checkbox" name="food" value="Kulfi" onClick="checkbox();" />&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td id="item">Mango Ice Cream&nbsp;</td>
+                                <td>Homemade Mango Ice Cream</td>
+                                <td id="item">$4.99&nbsp;</td>
+                                <td><input type="checkbox" name="food" value="Mango Ice Cream" onClick="checkbox();" />&nbsp;</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <h2 class="accordion">Beverages</h2>
+                    <div class="panel">
+                        <table id="td1">
+                            <tr>
+                                <th>Item</th>
+                                <th>Description</th>
+                                <th>price</th>
+                                <th>Buy </th>
+
+
+                            </tr>
+                            <tr>
+                                <td id="item">Coffee&nbsp;</td>
+                                <td>Regular or Decaffeinated Coffee.</td>
+                                <td id="item">$2.95&nbsp;</td>
+                                <td><input type="checkbox" name="food" value="Coffee" onClick="checkbox();" />&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td id="item">Mango Lassi&nbsp;</td>
+                                <td>Refreshing Mango and Yogurt Drink.</td>
+                                <td id="item">$2.98&nbsp;</td>
+                                <td><input type="checkbox" name="food" value="Mango Lassi" onClick="checkbox();" />&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td id="item">Lassi&nbsp;</td>
+                                <td>Refreshing Yogurt Drink (Sweet and Salty)</td>
+                                <td id="item">$3.49&nbsp;</td>
+                                <td><input type="checkbox" name="food" value="Lassi" onClick="checkbox();" />&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td id="item">Ice Tea&nbsp;</td>
+                                <td>Cool version of Tea</td>
+                                <td id="item">$1.99&nbsp;</td>
+                                <td><input type="checkbox" name="food" value="Ice Tea" onClick="checkbox();" />&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td id="item">Milk&nbsp;</td>
+                                <td>Pure Milk</td>
+                                <td id="item">$1.95&nbsp;</td>
+                                <td><input type="checkbox" name="food" value="Milk" onClick="checkbox();" />&nbsp;</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <h2 id="h">Your Order</h2>
+                    <p><textarea id="order" rows="5" cols="60"></textarea></p>
+                    <input id="submit" type="submit" value="OrderNow">
+                </main>
+
+
+            </div>
+        </div>
+        <footer>
+            <p>JavaScript Final Project</p>
+            <p><a href="reference.html">Click here</a> to view references.</p>
+        </footer>
+    </div>
+    <p>&nbsp;</p>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+    <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+    <script type="text/javascript" src="js/jquery.kwicks-1.5.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#images').kwicks({
+                max: 600,
+                spacing: 2
+            });
+            $('ul.sf-menu').sooperfish();
+        });
+
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+
+        function checkbox() { //https://stackoverflow.com/questions/39349191/show-checked-checkbox-values-on-textarea-javascript
+
+            var checkboxes = document.getElementsByName('food');
+            var checkboxesChecked = [];
+            console.log(checkboxesChecked = []);
+            // loop over them all
+            for (var i = 0; i < checkboxes.length; i++) {
+                // And stick the checked ones onto an array...
+                if (checkboxes[i].checked) {
+                    checkboxesChecked.push(checkboxes[i].value);
+                }
+            }
+            document.getElementById("order").value = checkboxesChecked;
+
+        }
+    </script>
+</body>
+
+</html>
